@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Stamp duty calculator",
+  "description": "This extension will calculate stamp duty on property sites such as right move.",
+  "version": "2.0",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["app.js"],
+      "css": ["./stamp-duty.css"]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "./images/percentage.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["https://rightmove.co.uk/*"],
+  "web_accessible_resources": ["images/*.svg", "stamp-duty.css"]
+}

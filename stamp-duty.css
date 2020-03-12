@@ -1,0 +1,127 @@
+.sd {
+  font-weight: 300;
+  font-family: Roboto, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  z-index: 9999;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fdfdfd;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border: 3px solid #e8e8e8;
+  border-radius: 8px;
+}
+.sd__btns {
+  display: flex;
+  justify-content: space-around;
+}
+.sd__btn {
+  cursor: pointer;
+  background-color: #6200ee;
+  font-size: 15px;
+  padding: 5px 8px;
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 64px;
+  border: none;
+  outline: none;
+  line-height: inherit;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  overflow: visible;
+  vertical-align: middle;
+  border-radius: 4px;
+  color: white;
+  margin: 0 5px;
+}
+.sd__results {
+  text-align: left;
+  margin-top: 15px;
+}
+.sd__results__container {
+  border-top: 1px solid #e6e6e6;
+  font-size: 17px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.sd__close {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+  color: #616161;
+  font-size: 28px;
+  padding: 5px 8px 8px 8px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  transition: 0.3s linear background-color;
+}
+.sd__close span {
+  margin-top: -5px;
+}
+.sd__close:hover {
+  background-color: #f5f5f5;
+}
+.sd__calculation {
+  background-color: #01c4b4;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.sd__calculation__inner {
+  display: none;
+  border: 1px solid #adadad;
+  color: black;
+  text-transform: capitalize;
+}
+.sd__title {
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-size: 19px;
+}
+.sd__flex-one {
+  flex: 1;
+  text-align: center;
+}
+.sd__row {
+  display: flex;
+  padding: 5px 5px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.sd__grey {
+  background-color: #e6e6e6;
+}
+.sd__grey-light {
+  background-color: #f3f3f3;
+}
+.sd__sm-font {
+  font-size: 13px;
+}
+.sd__icon {
+  display: block;
+  padding: 8px;
+  cursor: pointer;
+}
+.sd__inner {
+  display: none;
+  padding: 10px;
+}
+.sd__amount {
+  font-size: 19px;
+  font-weight: bold;
+}
+.sd__bold {
+  font-weight: bold;
+}
